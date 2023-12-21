@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+</head>
+<body>
+
+<!----------------------------------------------------- NAVBAR SECTION ------------------------------------------------------->
+
+    <div class="navbar">
+        <a href="#" class="logo">F<b>A</b>.</a>
+        <div class="toggle" onclick="navToggle()"></div>
+        <ol>
+            <li><a href="#home" onclick="navToggle()">asosiy oyna</a></li>
+            <li><a href="#about" onclick="navToggle()">biz haqimizda</a></li>
+            <li><a href="#plans" onclick="navToggle()">rejalar</a></li>
+            <li><a href="#workout" onclick="navToggle()">mashg'ulot</a></li>
+            <li><a href="#trainers" onclick="navToggle()">murabbiylar</a></li>
+            <li><a href="#diet" onclick="navToggle()">dieta</a></li>
+            <li><a href="#health-tips" onclick="navToggle()">maslahatlar</a></li>
+            <li><a href="#contact" onclick="navToggle()">biz bilan bog'lanish</a></li>
+        </ol>
+    </div>
+
+<!----------------------------------------------------- HOME SECTION ------------------------------------------------------->
+
+    <section id="home" class="home view">
+        <div class="highlights">
+            <h3>o'z kuchingizni his qiling</h3>
+            <h1><b>FIT</b>APEX</h1><br>
+            <p class="tagline">
+                FitApex bilan o'z orzuyingizdagi sog'lom turmush tarzini quring hamda o'zingiz uchun kerakli bo'lgan murabbiylar, maslahatlar va mashg'ulotlarni tanlang.
+            </p>
+            <button class="join">hoziroq qo'shiling</button>
+        </div>
+
+        <div class="banner"></div>
+    </section>
+
+<!----------------------------------------------------- ABOUT SECTION ------------------------------------------------------->
+    <section id="about" class="about view">
+        <div class="main">
+            <h2><span>B</span>iz <span>H</span>aqimizda</h2>
+            <h6>Quyida biz haqimizda ma'lumot berib o'tilgan</h6>
+        </div>
+
+        <div class="content">
+            <div class="cols">
+                <p><b>F</b>itApex sayti siz uchun kerak bo'lgan qulay imkoniyatlarni taqdim etadi. Siz ushbu saytda o'zingiz uchun kerak bo'lgan kerakli maslahatlarni olish bilan birgalikda, o'zingizni qiziqtirgan fitnes mashg'ulotlari, to'gri ovqatlanish qoidalari hamda o'zingizga qulay bo'lgan ta'riflarni sotib olishingiz mumkin. Shuningdek, siz bzining sport zalimizga tashrif buyurish orqali ko'plab tajribali murabbiylar tomonidan jihozlardan qanday foydalanishni va ular yordamida qanday qilib o'z tanangiz ustida to'g'ri ishlash imkoniyatini qo'lga kiritishinigiz mumkin. Ushbu saytimiz orqali siz bila to'gridan to'g'ri bog'lana olishingiz mumkin. Shu bilan birgalikda, siz vaqtingizni va pulongizni ancha tejashingiz mumkin. Shunday ekan, hoziroq biz bilan bog'laning hamda o'z tanangizga g'amxo'rlik qilishni boshlang.</p>
+                <a href="#">ko'proq</a>
+            </div>
+
+            <div class="cols">
+                <div class="box">
+                    <img src="img/About.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!----------------------------------------------------- PLANS SECTION ------------------------------------------------------->
+
+<section id="plans" class="plans view">
+    <div class="main">
+        <h2><span>S</span>port <span>Z</span>aliga <span> A</span>'zolik</h2>
+        <h6>Sport zaliga a'zo bo'lish uchun quyidagi bo'limlardan birini tanlashingiz zarur</h6>
+    </div>
+
+    <div class="content">
+
+        <div class="frame">
+            <div class="headline">
+                <div class="title">Sinov rejasi</div>
+                <div class="price">$ 0</div>
+            </div>
+            <div class="details">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="button">
+                <a href="#">Sotib olish rejasi</a>
+            </div>
+        </div>
+
+        <div class="frame">
+            <div class="headline">
+                <div class="title">Batafsil reja</div>
+                <div class="price">$ 5000</div>
+            </div>
+            <div class="details">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="button">
+                <a href="#">Sotib olish rejasi</a>
+            </div>
+        </div>
+
+        <div class="frame">
+            <div class="headline">
+                <div class="title">Pro Max rejasi</div>
+                <div class="price">$ 6000</div>
+            </div>
+            <div class="details">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="button">
+                <a href="#">Sotib olish rejasi</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----------------------------------------------------- WORKOUT SECTION ------------------------------------------------------->
+
+    <section id="workout" class="workout view">
+        <div class="main">
+            <h2><span>M</span>ashg'ulot</h2>
+            <h6>Quyida o'zingiz uchun kerak bo'lgan mashg'ulo turini tanlashingiz mumkin</h6>
+        </div>
+
+        <div class="content">
+            <div class="frame">
+                <div class="box">
+                    <img src="img/workout1.jpg" alt="">
+                </div>
+                <div class="title">Yugurish yo‘lakchasi</div>
+                <p>Yugurish yo'lakchasi odatda yurish, chopish yoki bir joyda turgan holda toqqa chiqish uchun ishlatiladigan qurilma.</p>
+            </div>
+
+            <div class="frame">
+                <div class="box">
+                    <img src="img/workout2.jpg" alt="">
+                </div>
+                <div class="title">Body Building</div>
+                <p>Bodibilding, kulturizm — sport turi; tana mushaklarini gantel, shtanga, tosh kabilar yordamida rivojlantirish, uni chiroyli va baquvvat qilishga qaratilgan mashqlar tizimi.</p>
+            </div>
+
+            <div class="frame">
+                <div class="box">
+                    <img src="img/workout3.jpg" alt="">
+                </div>
+                <div class="title">Og'irlikni ko'tarish</div>
+                <p>Og'ir atletika yoki og'irlikni ko'tarish odatda jismoniy mashqlar va sport turlarini anglatadi, unda odamlar og'irliklarni ko'taradilar.</p>
+            </div>
+
+            <div class="frame">
+                <div class="box">
+                    <img src="img/workout4.jpg" alt="">
+                </div>
+                <div class="title">Dumbbell surish</div>
+                <p>Sizning yadroingiz va glutalaringiz tanangizni barqaror qiladi, qo'llar, ko'krak, orqa va elkalaringiz esa pastga tushib, tanangizni erdan uzoqlashtiradi.</p>
+            </div>
+
+            <div class="frame">
+                <div class="box">
+                    <img src="img/workout5.jpg" alt="">
+                </div>
+                <div class="title">Jang arqonlari</div>
+                <p>Ushbu usulda sport buyumlari va fitnesstrenirovkalar jadal to'piqlari bilan yozilib boriladi.</p>
+            </div>
+
+            <div class="frame">
+                <div class="box">
+                    <img src="img/workout6.jpg" alt="">
+                </div>
+                <div class="title">Kardio</div>
+                <p>Bu tizim ichida yurak, qon qadini, qon tuzilmalari va boshqa qon oqim tizimlari kiradi.</p>
+            </div>
+        </div>
+    </section>
+
+<!----------------------------------------------------- TRAINERS SECTION ------------------------------------------------------->
+    <section id="trainers" class="trainers view">
+        <div class="main">
+            <h2><span>E</span>ng <span>Y</span>axshi <span> M</span>urabbiylar</h2>
+            <h6>Quyida siz o'zingiz uchun kerak bo'lgan murabbiyni tanlashingiz mumkin</h6>
+        </div>
+
+        <div class="content">
+            <div class="frame">
+                <div class="box">
+                    <img src="img/trainer1.jpg" alt="">
+                </div>
+                <div class="headline">
+                    <div class="title">Dmitry Dmitruk</div>
+                    <div class="icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </div>
+                <p>10 yillik tajribaga ega murabbiy</p>
+                <a href="#">Tadqiq qiling</a>
+            </div>
+
+            <div class="frame">
+                <div class="box">
+                    <img src="img/trainer2.jpg" alt="">
+                </div>
+                <div class="headline">
+                    <div class="title">Bobbili Srikanth Reddy</div>
+                    <div class="icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </div>
+                <p>15 yillik tajribaga ega murabbiy</p>
+                <a href="#">Tadqiq qiling</a>
+            </div>
+
+            <div class="frame">
+                <div class="box">
+                    <img src="img/trainer3.jpg" alt="">
+                </div>
+                <div class="headline">
+                    <div class="title">Brad Schoenfeld</div>
+                    <div class="icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </div>
+                <p>7 yillik tajribaga ega murabbiy</p>
+                <a href="#">Tadqiq qiling</a>
+            </div>
+
+            <div class="frame">
+                <div class="box">
+                    <img src="img/trainer4.jpg" alt="">
+                </div>
+                <div class="headline">
+                    <div class="title">Vijay Sharma</div>
+                    <div class="icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </div>
+                <p>5 yillik tajribaga ega murabbiy</p>
+                <a href="#">Tadqiq qiling</a>
+            </div>
+        </div>
+    </section>
+
+<!----------------------------------------------------- DIET SECTION ------------------------------------------------------->
+
+    <section id="diet" class="diet view">
+        <div class="main">
+            <h2><span>M</span>axsus<span> D</span>ieta</h2>
+            <h6>Sog'lom hayot tarzini qurishda dietaning o'rni katta. Quyida siz uchun dietabop maslahatlar va taomlar keltirib o'tilgan</h6>
+        </div>
+
+        <div class="content">
+            <div class="row">
+                <div class="cols a">
+                    <div class="heading">qaynatilgan tovuq</div>
+                    <p>Qaynatilgan tovuq quyidagi foydalar bilan bilinadi: Protein (Tovuq eti yuqori sifatli, qimmatbaho protein manbaidir.); Vitaminlar va Mineral tuzilmalari (Tovuq eti, B-vitaminlar, niacin, riboflavin va mineral tuzilmalari bilan bog'liqdir.); Nizat va Oziq Ovqat Tugallanishi (Protein va boshqa esas g'izillarning bo'yicha boy tovuq eti, nizat va oziq ovqatning energiya va g'izillik qayta tiklanishiga yordam bera olishi mumkin); Kalsiyum (Tovuq eti kalsiyum bilan bog'liqdir, bu esa osiyog'ingiz va dentallaringiz uchun juda muhimdir); Anemiya Profilaktikasi (Tovuq eti, hayvonlar ichidagi yuqori darajadagi demir manbaidir. Bu esa anemiyani oldini olishda yordam bera olishi mumkin); Yuzaga Chiqqan Husn buzarlar (Tovuq eti, yaqin vaqt ichida tayyorlanishi va undan oziq ovqatlar, salatlar, va boshqa ko'p turli ovqatlarni tayyorlash osonligi uchun mashhur).</p>
+                </div>
+                <div class="cols b">
+                    <div class="boxes">
+                        <img src="img/diet1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="cols a">
+                    <div class="heading">non salat</div>
+                    <p>"Non salatasi" odatda uning asosiy tarkibiy qismlaridan biri sifatida non bo'laklarini o'z ichiga olgan salatga ishora qiladi. Non salatining o'ziga xos afzalliklari ishlatiladigan ingredientlar turiga qarab farq qilishi mumkin, ammo bu erda ba'zi potentsial foydalar mavjud: ozuqa moddalarining xilma-xilligi, tolaning tarkibi, to'yinganlik, energiya manbai, mikroelementlar, yurak salomatligi, antioksidantlar. Shuni ta'kidlash kerakki, non salatining umumiy ozuqaviy qiymati o'ziga xos ingredientlar va porsiya hajmiga bog'liq. Bundan tashqari, ovqatlanish cheklovlari yoki sog'lig'i bilan bog'liq bo'lgan odamlar o'zlarining salatlariga non yoki boshqa ingredientlarni qo'shishda o'zlarining ehtiyojlarini hisobga olishlari kerak. To'liq donli nonni tanlash va rangli sabzavotlar majmuasini qo'shish salatning ozuqaviy profilini yaxshilashi mumkin.</p>
+                </div>
+                <div class="cols b">
+                    <div class="boxes">
+                        <img src="img/diet2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="cols a">
+                    <div class="heading">quruq mevalar</div>
+                    <p>Quruq meva tuzilishiga qarab bir nechtaga boʻlinadi: yongʻoq mevalar — poʻsti qattiq yogʻochsimon (yongʻoq, oʻrmon yongʻogʻi va boshqalar); pista mevalar — poʻsti dagʻal (kungaboqar, maxsar va boshqalar); doncha mevalar — poʻsti yupqa, urugʻga yopishgan (arpa, bugʻdoy. sholi, tariq va boshqalar) va qanotchali mevalar — urugʻida qanotchasimon parda boʻladi (qayragʻoch, shumtol, zarang va boshqalarda). Ochiladigan mevalar, odatda, koʻp urugʻli boʻlib, ochilish usuli va xonalarining soniga qarab bir necha xilga ajratiladi. Bargak meva — sallagul, isparak, tasmachoʻp; qoʻzok meva — turp, sholgʻom, indov; qoʻzoqcha meva — oʻsma, jagʻjagʻ, qatron; koʻsak meva — gʻoʻza, koʻknor, lolaqizgʻaldoq oʻsimliklarida uchraydi.</p>
+                </div>
+                <div class="cols b">
+                    <div class="boxes">
+                        <img src="img/diet3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="cols a">
+                    <div class="heading">yuvilgan mevalar</div>
+                    <p>Yuvilgan mevalar (dried fruits) harorat prosesida osongina suvini yo'qotgan mevalardir. Yuvilgan mevalar, o'zida bir nechta vitamin va mineral tuzilmalarini saqlaydi. Misol uchun, ular o'simlik zarrinoti, kaltsiyum, zink, qalium, magniy, va vitaminkalorimi kabi muhim g'izillar bilan boy to'plangan. Ko'pchilik yuvilgan mevalar, oziq ovqatning lif sifatida ahamiyatli manbalaridan biridir. Lif, yuqori qisqararli va hazm qilishni oshirishda yordam bera olishi uchun juda muhimdir. Yuvilgan mevalarni iste'mol qilishda, quruq mevalar tuzlanish va qo'shilmasdan oldin ularning soddaligi va oziq ovqat sifatida foydalanish juda muhim. Bu qandaydir davlatlardagi va turli mevalardagi xususiyatlarni o'rganish uchun har doim mahsulot etiketini o'qib ko'rish ham muhimdir.</p>
+                </div>
+                <div class="cols b">
+                    <div class="boxes">
+                        <img src="img/diet4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="cols a">
+                    <div class="heading">mevali sharbatlar</div>
+                    <p>Meva sharbati — meva va sabzavotlardan olinadigan shirin suyuklik; meva suvi. Asosan, olma, uzum, shaftoli, olxoʻri, oʻrik, anor, sabzi va boshqalardan olinadi. Meva sharbatining 2 xil: tiniq va meva eti bilan tayyorlanadigan turlari ishlab chiqariladi. Eti bilan tayyorlanadigan Meva sharbatiga oʻrik, shaftoli, ol-xoʻri va boshqa sharbati kiradi. Sanoatda 2 yoki bir necha xil mevasabzavotlar sharbatlari aralashmasidan iborat boʻlgan omixta (aralash) sharbatlar ham ^ishlab chiqariladi. Meva sharbatining tabiiy (qand qoʻshilmagan) va 5—15% qand qoʻshilgan xillari bor. Meva sharbatida meva va sabzavotlar tarkibidagi barcha foydali oziq moddalar (qand, organik moddalar, kislotalar, vitaminlar, mineral tuzlar, pektin, klechatka va xushboʻy moddalar) boʻlib, taʼmi saqlanadi. Meva sharbati tarkibida: 5—15% qand, 0,3—3,0% organik kislotalar, turli vitaminlar, mineral tuzlar va boshqa bor.</p>
+                </div>
+                <div class="cols b">
+                    <div class="boxes">
+                        <img src="img/diet5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="cols a">
+                    <div class="heading">tuxum</div>
+                    <p>Tuxum — tarkibida barcha oziq moddalarga ega boʻlgan parranda mahsuloti. Isteʼmol uchun, asosan, tovuq, bedana, sesarka Tuxumlari ishlatiladi. Sifati, vazni, muddati va saqlanish sharoitiga qarab parhez va oshxona (oddiy) Tuxumlariga ajratiladi. Yangi, yuqori sifatli, sovuq haroratda saqdanmagan, muddati 7 kundan oshmagan Tuxumlar parhez Tuxum hisoblanadi. Shuningdek, Tuxum tarkibida aminokislotalarga boy oqsil, letsitin, fosforli yogʻlar, 20 dan ortiq mikroelement qamda A, V, Ye, D va boshqa vitaminlar bor. Koloriyaliligi boʻyicha oʻrtacha semizlikdagi mol goʻshtiga teng keladi va yaxshi singadi.</p>
+                </div>
+                <div class="cols b">
+                    <div class="boxes">
+                        <img src="img/diet6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!----------------------------------------------------- TIPS SECTION ------------------------------------------------------->
+
+    <section id="health-tips" class="health-tips view">
+        <div class="main">
+            <h2><span>S</span>og'lom <span>H</span>ayot <span>u</span>chun <span>M</span>aslahatlat</h2>
+            <h6>Sog'lom turmush tarzini yo'lga qo'yich uchun sizga Top 5 maslahatlar</h6>
+        </div>
+    
+        <div class="content">
+            <div class="tip">
+                <img src="img/tip1.png" alt="Healthy Living Tip 1">
+                <h3>Maslahat 1: Balanslangan ovqatlanish</h3>
+                <p>Mevalar, sabzavotlar, to'liq donalar, yog'siz oqsillar va sog'lom yog'larga boy muvozanatli dietani iste'mol qiling.</p>
+            </div>
+    
+            <div class="tip">
+                <img src="img/tip2.jpg" alt="Healthy Living Tip 2">
+                <h3>Maslahat 2:Muntazam mashq</h3>
+                <p>Tanangiz va ongingizni shaklda saqlash uchun muntazam jismoniy faoliyat bilan shug'ullaning.</p>
+            </div>
+    
+            <div class="tip">
+                <img src="img/tip3.jpg" alt="Healthy Living Tip 3">
+                <h3>Maslahat 3: Hidratlangan bo'ling</h3>
+                <p>Suvsizlanish va sog'lig'ingizni saqlash uchun kun davomida ko'p miqdorda suv iching.</p>
+            </div>
+    
+            <div class="tip">
+                <img src="img/tip4.png" alt="Healthy Living Tip 4">
+                <h3>Maslahat 4: Kerakli uyqu oling</h3>
+                <p>Tanangiz va ongingizni yoshartirish uchun har kecha 7-9 soat sifatli uyqu olishingizga ishonch hosil qiling.</p>
+            </div>
+    
+            <div class="tip">
+                <img src="img/tip5.jpg" alt="Healthy Living Tip 5">
+                <h3>Maslahat 5: Stressni boshqarish</h3>
+                <p>Ruhiy farovonlik uchun meditatsiya, chuqur nafas olish yoki yoga kabi stressni kamaytirish usullarini qo'llang.</p>
+            </div>
+        </div>
+    </section>
+    
+
+<!----------------------------------------------------- CONTACT SECTION ------------------------------------------------------->
+
+    <section id="contact" class="contact view">
+        <div class="main">
+            <h2><span>C</span>ontact</h2>
+            <h6>Biz bilan bog'lanish uchun quyidagi so'rovlarni to'lidring</h6>
+        </div>
+
+        <div class="content">
+            <form>
+                <input type="text" placeholder="Foydalanuvchi">
+                <input type="email" placeholder="Email">
+                <textarea row="5" placeholder="Nimalarni xayol qilyapsiz?"></textarea>
+                <br>
+                <input type="submit" value="Jo'natish" class="btn">
+            </form>
+            <div class="bgimg"></div>
+        </div>
+    </section>
+
+    
+
+<!----------------------------------------------------- COPYRIGHT SECTION ------------------------------------------------------->
+    
+    <section class="copyright">
+        &copy; copyright <a href="#">Aryan And Arnav</a> 2023 | All Rights Reserved
+    </section>
+
+<!----------------------------------------------------- JS LINKING SECTION ------------------------------------------------------->
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
